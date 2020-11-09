@@ -15,7 +15,7 @@ This map represents the two stations around Wakefield, West Yorkshire, including
 | Timetable | <img src="https://image.flaticon.com/icons/svg/390/390914.svg" height="24"> |
 | Documentation | <img src="https://image.flaticon.com/icons/svg/390/390914.svg" height="24"> |
 
-*This route's .dev file is partially completed.*
+*This routes .dev file is partially completed.*
 
 ## Data Sources
 
