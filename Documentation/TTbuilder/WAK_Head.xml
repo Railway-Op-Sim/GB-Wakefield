@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Timetable>
+  <TimeTableStart>07:00</TimeTableStart>
+  <Defs>
+    <Def Name="HuddersfieldIn" Data="17-25 18-25"></Def>
+    <Def Name="HuddersfieldOut" Data="17-26"></Def>
+
+    <Def Name="BarnsleyIn" Data="17-29 18-29"></Def>
+    <Def Name="BarnsleyOut" Data="17-30"></Def>
+
+    <Def Name="FitzwilliamIn" Data="44-42 44-41"></Def>
+    <Def Name="FitzwilliamOut" Data="45-42"></Def>
+
+    <Def Name="OutwoodIn" Data="45-N3 45-N2"></Def>
+    <Def Name="OutwoodOut" Data="44-N3"></Def>
+
+    <Def Name="MonkBrettonIn" Data="85-37 86-37"></Def>
+    <Def Name="MonkBrettonOut" Data="85-37"></Def>
+
+    <Def Name="DoncasterIn" Data="108-36 107-36"></Def>
+    <Def Name="DoncasterOut" Data="108-35"></Def>
+
+    <Def Name="StreethouseIn" Data="115-33 114-33"></Def>
+    <Def Name="StreethouseOut" Data="115-32"></Def>
+
+    <Def Name="PontefractIn" Data="123-23 122-23"></Def>
+    <Def Name="PontefractOut" Data="123-22"></Def>
+
+    <Def Name="YorkIn" Data="125-16 124-16"></Def>
+    <Def Name="YorkOut" Data="125-15"></Def>
+
+    <Def Name="EuroportIn" Data="101-24 100-24"></Def>
+    <Def Name="EuroportOut" Data="101-24"></Def>
+
+    <Def Name="LeedsIn" Data="76-16 77-16"></Def>
+    <Def Name="LeedsOut" Data="76-17"></Def>
+  </Defs>
+</Timetable>
