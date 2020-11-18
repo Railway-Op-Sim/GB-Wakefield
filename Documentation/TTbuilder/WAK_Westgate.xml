@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Timetable>
+  <Group Info="LNER Leeds -> Kings Cross">
+    <Service id="2O01" Desc="Leeds to London Kings Cross">
+      <Equipment>50;201;1025;574;701</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;OutwoodIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;FitzwilliamOut</Data>  </Element>
+        <Starttime>07:13</Starttime>
+        <Starttime>07:28</Starttime>
+        <Starttime>07:54</Starttime>
+        <Starttime>08:30</Starttime>
+        <Starttime>08:59</Starttime>
+        <Starttime>09:29</Starttime>
+        <Starttime>09:58</Starttime>
+        <Starttime>10:28</Starttime>
+        <Starttime>10:58</Starttime>
+    </Service>
+  </Group>
+  <Group Info="LNER Kings Cross -> Leeds">
+    <Service id="2O02" Desc="London Kings Cross to Leeds">
+      <Equipment>100;201;1025;574;701</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;FitzwilliamIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>08:07</Starttime>
+        <Starttime>08:36</Starttime>
+        <Starttime>09:01</Starttime>
+        <Starttime>10:01</Starttime>
+        <Starttime>10:32</Starttime>
+        <Starttime>11:01</Starttime>
+    </Service>
+  </Group>
+  <Group Info="LNER Kings Cross -> Harrogate">
+    <Service id="2O08" Desc="London Kings Cross to Harrogate">
+      <Equipment>100;201;1025;574;701</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;FitzwilliamIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>09:32</Starttime>
+    </Service>
+  </Group>
+
+  <Group Info="XC Birmingham New Street -> Glasgow Central">
+    <Service id="1S01" Desc="Birmingham N S to Glasgow Central">
+      <Equipment>100;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;FitzwilliamIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>07:47</Starttime>
+    </Service>
+  </Group>
+  <Group Info="XC Birmingham New Street -> Edinburgh">
+    <Service id="1S03" Desc="Birmingham N S to Edinburgh">
+      <Equipment>100;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;FitzwilliamIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>08:49</Starttime>
+    </Service>
+  </Group>
+  <Group Info="XC Bath Spa -> Edinburgh">
+    <Service id="1S05" Desc="Bath Spa to Edinburgh">
+      <Equipment>100;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;FitzwilliamIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>09:47</Starttime>
+    </Service>
+  </Group>
+  <Group Info="XC Plymouth -> Edinburgh">
+    <Service id="1S07" Desc="Plymouth to Edinburgh">
+      <Equipment>100;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;FitzwilliamIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>10:46</Starttime>
+    </Service>
+  </Group>
+  <Group Info="XC Newcastle -> Plymouth">
+    <Service id="1S02" Desc="Newcastle to Plymouth">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;OutwoodIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;FitzwilliamOut</Data>  </Element>
+        <Starttime>08:11</Starttime>
+    </Service>
+  </Group>
+  <Group Info="XC Edinburgh -> Plymouth">
+    <Service id="1S04" Desc="Edinburgh to Plymouth">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;OutwoodIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;FitzwilliamOut</Data>  </Element>
+        <Starttime>09:11</Starttime>
+    </Service>
+  </Group>
+  <Group Info="XC Glasgow Central -> Plymouth">
+    <Service id="1S06" Desc="Glasgow Central to Plymouth">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;OutwoodIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;FitzwilliamOut</Data>  </Element>
+        <Starttime>10:11</Starttime>
+    </Service>
+  </Group>
+
+  <Group Info="NT Sheffield -> Leeds (via Westgate)">
+    <Service id="2N01" Desc="Sheffield to Leeds (Westgate)">
+      <Equipment>50;145;85;47;597</Equipment>
+        <Element>  <Time>23:55</Time>  <Data>Snt;FitzwilliamIn</Data> </Element>
+        <Element>  <Time>23:56</Time>  <Time>23:56</Time>  <Data>Sandal and Agbrigg</Data>  </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>07:12</Starttime>
+        <Starttime>08:16</Starttime>
+        <Starttime>09:12</Starttime>
+        <Starttime>10:12</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Leeds -> Sheffield (via Westgate)">
+    <Service id="2N02" Desc="Leeds to Sheffield (Westgate)">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;OutwoodIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:04</Time>  <Time>00:04</Time>  <Data>Sandal and Agbrigg</Data>  </Element>
+        <Element>  <Time>00:05</Time>  <Data>Fer;FitzwilliamOut</Data>  </Element>
+        <Starttime>07:02</Starttime>
+        <Starttime>08:03</Starttime>
+        <Starttime>09:04</Starttime>
+        <Starttime>10:03</Starttime>
+    </Service>
+  </Group>
+</Timetable>
