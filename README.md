@@ -17,7 +17,7 @@ This map represents the two stations around Wakefield, West Yorkshire, including
 
 ###Note to developers
 
-For the timetable, I am using David Humble's fantastic TTbuilder application which can generate a .ttb file from server XML files. Such files are stored in the Documentation folder. To use the program to generate a new timetable, move the files over to the test/samples folder inside TTbuilder. It may also be necessary to edit the .sh file to the correct path. Let me know if you need assistance with this. - Daniel Gill
+For the timetable, I am using David Humble's fantastic TTbuilder application which can generate a .ttb file from several XML files. Such files are stored in the Documentation folder. To use the program to generate a new timetable, move the files over to the test/samples folder inside TTbuilder. It may also be necessary to edit the .sh file to the correct path. Let me know if you need assistance with this. - Daniel Gill
 
 ## Data Sources
 
