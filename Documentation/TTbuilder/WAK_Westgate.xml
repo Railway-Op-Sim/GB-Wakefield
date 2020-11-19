@@ -131,4 +131,61 @@
         <Starttime>10:03</Starttime>
     </Service>
   </Group>
+
+  <Group Info="NT Doncaster -> Leeds">
+    <Service id="2B01" Desc="Doncaster to Leeds">
+      <Equipment>50;145;85;47;597</Equipment>
+        <Element>  <Time>23:55</Time>  <Data>Snt;FitzwilliamIn</Data> </Element>
+        <Element>  <Time>23:56</Time>  <Time>23:56</Time>  <Data>Sandal and Agbrigg</Data>  </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>07:23</Starttime>
+        <Starttime>07:55</Starttime>
+        <Starttime>08:27</Starttime>
+        <Starttime>08:55</Starttime>
+        <Starttime>09:55</Starttime>
+        <Starttime>10:54</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Leeds -> Doncaster">
+    <Service id="2B02" Desc="Leeds to Doncaster">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;OutwoodIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:04</Time>  <Time>00:04</Time>  <Data>Sandal and Agbrigg</Data>  </Element>
+        <Element>  <Time>00:05</Time>  <Data>Fer;FitzwilliamOut</Data>  </Element>
+        <Starttime>07:35</Starttime>
+        <Starttime>08:35</Starttime>
+        <Starttime>09:04</Starttime>
+        <Starttime>09:34</Starttime>
+        <Starttime>10:34</Starttime>
+    </Service>
+  </Group>
+
+  <Group Info="NT Leeds -> Knottingly (via Wakefield)">
+    <Service id="2A01" Desc="Leeds to Knottingly (Wakefield)">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:58</Time>  <Data>Snt;OutwoodIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:03</Time>  <Time>00:04</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:08</Time>  <Data>Fer;StreethouseOut</Data>  </Element>
+        <Starttime>07:43</Starttime>
+        <Starttime>08:42</Starttime>
+        <Starttime>09:42</Starttime>
+        <Starttime>10:42</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Knottingly -> Leeds (via Wakefield)">
+    <Service id="2A02" Desc="Knottingly to Leeds (Wakefield)">
+      <Equipment>50;145;85;47;597</Equipment>
+        <Element>  <Time>23:52</Time>  <Data>Snt;StreethouseIn</Data> </Element>
+        <Element>  <Time>23:56</Time>  <Time>23:57</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:00</Time>  <Data>Wakefield Westgate</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>07:10</Starttime>
+        <Starttime>08:02</Starttime>
+        <Starttime>09:09</Starttime>
+        <Starttime>10:09</Starttime>
+    </Service>
+  </Group>
 </Timetable>

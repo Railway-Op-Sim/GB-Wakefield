@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Timetable>
+  <Group Info="NT Leeds -> Knottingly (via Castleford)">
+    <Service id="2F01" Desc="Leeds to Knottingly (Castleford)">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:49</Time>  <Data>Snt;LeedsIn</Data> </Element>
+        <Element>  <Time>23:51</Time>  <Time>23:51</Time>  <Data>Woodlesford</Data>  </Element>
+        <Element>  <Time>00:00</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>00:01</Time>  <Data>cdt</Data>  </Element>
+        <Element>  <Time>00:02</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>00:07</Time>  <Time>00:07</Time>  <Data>Glasshoughton</Data>  </Element>
+        <Element>  <Time>00:09</Time>  <Data>Fer;PontefractOut</Data>  </Element>
+        <Starttime>07:16</Starttime>
+        <Starttime>08:16</Starttime>
+        <Starttime>09:16</Starttime>
+        <Starttime>10:16</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Knottingly -> Leeds (via Castleford)">
+    <Service id="2F02" Desc="Knottingly to Leeds (Castleford)">
+      <Equipment>50;145;85;47;597</Equipment>
+        <Element>  <Time>23:51</Time>  <Data>Snt;PontefractIn</Data> </Element>
+        <Element>  <Time>23:53</Time>  <Time>23:53</Time>  <Data>Glasshoughton</Data>  </Element>
+        <Element>  <Time>23:58</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>23:59</Time>  <Data>cdt</Data>  </Element>
+        <Element>  <Time>00:00</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>00:09</Time>  <Time>00:09</Time>  <Data>Woodlesford</Data>  </Element>
+        <Element>  <Time>00:11</Time>  <Data>Fer;LeedsOut</Data>  </Element>
+        <Starttime>07:32</Starttime>
+        <Starttime>08:11</Starttime>
+        <Starttime>09:33</Starttime>
+        <Starttime>10:33</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Goole -> Leeds">
+    <Service id="2F04" Desc="Goole to Leeds">
+      <Equipment>50;145;85;47;597</Equipment>
+        <Element>  <Time>23:51</Time>  <Data>Snt;PontefractIn</Data> </Element>
+        <Element>  <Time>23:53</Time>  <Time>23:53</Time>  <Data>Glasshoughton</Data>  </Element>
+        <Element>  <Time>23:58</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>23:59</Time>  <Data>cdt</Data>  </Element>
+        <Element>  <Time>00:00</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>00:09</Time>  <Time>00:09</Time>  <Data>Woodlesford</Data>  </Element>
+        <Element>  <Time>00:11</Time>  <Data>Fer;LeedsOut</Data>  </Element>
+        <Starttime>08:30</Starttime>
+    </Service>
+  </Group>
+
+  <Group Info="GC Bradford Intc -> London Kings Cross">
+    <Service id="5C01" Desc="Bradford Intc to London Kings Cross">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:55</Time>  <Data>Snt;HuddersfieldIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:01</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:08</Time>  <Data>Fer;StreethouseOut</Data>  </Element>
+        <Starttime>07:39</Starttime>
+        <Starttime>08:52</Starttime>
+    </Service>
+  </Group>
+
+  <Group Info="NT Chesterfield -> Leeds">
+    <Service id="1Y01" Desc="Chesterfield to Leeds">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:55</Time>  <Data>Snt;BarnsleyIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:01</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:05</Time>  <Time>00:05</Time>  <Data>Normanton</Data>  </Element>
+        <Element>  <Time>00:14</Time>  <Data>Fer;LeedsOut</Data>  </Element>
+        <Starttime>07:22</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Nottingham -> Leeds">
+    <Service id="1Y03" Desc="Nottingham to Leeds">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:55</Time>  <Data>Snt;BarnsleyIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:01</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:13</Time>  <Data>Fer;LeedsOut</Data>  </Element>
+        <Starttime>07:57</Starttime>
+        <Starttime>08:55</Starttime>
+        <Starttime>09:55</Starttime>
+        <Starttime>10:55</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Retford -> Leeds">
+    <Service id="1Y05" Desc="Retford to Leeds">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:55</Time>  <Data>Snt;BarnsleyIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:01</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:14</Time>  <Data>Fer;LeedsOut</Data>  </Element>
+        <Starttime>08:24</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Lincoln -> Leeds">
+    <Service id="1Y07" Desc="Lincoln to Leeds">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:55</Time>  <Data>Snt;BarnsleyIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:01</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:14</Time>  <Data>Fer;LeedsOut</Data>  </Element>
+        <Starttime>09:24</Starttime>
+        <Starttime>10:24</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Leeds -> Nottingham">
+    <Service id="1Y02" Desc="Leeds to Nottingham">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:47</Time>  <Data>Snt;LeedsIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:01</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:05</Time>  <Data>Fer;BarnsleyOut</Data>  </Element>
+        <Starttime>07:22</Starttime>
+        <Starttime>08:21</Starttime>
+        <Starttime>09:25</Starttime>
+        <Starttime>10:25</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Leeds -> Lincoln">
+    <Service id="1Y04" Desc="Leeds to Lincoln">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:47</Time>  <Data>Snt;LeedsIn</Data> </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:01</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:05</Time>  <Data>Fer;BarnsleyOut</Data>  </Element>
+        <Starttime>07:54</Starttime>
+        <Starttime>08:54</Starttime>
+        <Starttime>09:54</Starttime>
+        <Starttime>10:54</Starttime>
+    </Service>
+  </Group>
+
+  <Group Info="NT Leeds -> Sheffield (via Kirkgate)">
+    <Service id="2L01" Desc="Leeds to Sheffield (Kirkgate)">
+      <Equipment>50;201;280;105;2796</Equipment>
+        <Element>  <Time>23:37</Time>  <Data>Snt;LeedsIn</Data> </Element>
+        <Element>  <Time>23:39</Time>  <Time>23:39</Time>  <Data>Woodlesford</Data>  </Element>
+        <Element>  <Time>23:48</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>23:49</Time>  <Data>cdt</Data>  </Element>
+        <Element>  <Time>23:50</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>23:55</Time>  <Time>23:55</Time>  <Data>Normanton</Data>  </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:01</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:07</Time>  <Time>00:07</Time>  <Data>Darton</Data>  </Element>
+        <Element>  <Time>00:09</Time>  <Data>Fer;BarnsleyOut</Data>  </Element>
+        <Starttime>08:02</Starttime>
+        <Starttime>09:02</Starttime>
+        <Starttime>10:02</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Sheffield -> Leeds (via Kirkgate)">
+    <Service id="2L02" Desc="Sheffield to Leeds (Kirkgate)">
+      <Equipment>50;145;85;47;597</Equipment>
+        <Element>  <Time>23:51</Time>  <Data>Snt;BarnsleyIn</Data> </Element>
+        <Element>  <Time>23:53</Time>  <Time>23:53</Time>  <Data>Darton</Data>  </Element>
+        <Element>  <Time>23:59</Time>  <Time>00:00</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:05</Time>  <Time>00:05</Time>  <Data>Normanton</Data>  </Element>
+        <Element>  <Time>00:10</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>00:11</Time>  <Data>cdt</Data>  </Element>
+        <Element>  <Time>00:12</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>00:21</Time>  <Time>00:21</Time>  <Data>Woodlesford</Data>  </Element>
+        <Element>  <Time>00:23</Time>  <Data>Fer;OutwoodOut</Data>  </Element>
+        <Starttime>07:51</Starttime>
+        <Starttime>08:50</Starttime>
+        <Starttime>09:49</Starttime>
+        <Starttime>10:49</Starttime>
+    </Service>
+  </Group>
+
+  <Group Info="NT Huddersfield -> Castleford">
+    <Service id="2R01" Desc="Huddersfield to Castleford">
+      <Equipment>50;145;85;47;597</Equipment>
+        <Element>  <Time>23:51</Time>  <Data>Snt;HuddersfieldIn</Data> </Element>
+        <Element>  <Time>23:59</Time>  <Time>00:00</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:05</Time>  <Time>00:05</Time>  <Data>Normanton</Data>  </Element>
+        <Element>  <Time>00:10</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>00:11</Time>  <Data>Fns;%ID%-2R02</Data>  </Element>
+        <Starttime>07:28</Starttime>
+        <Starttime>08:29</Starttime>
+        <Starttime>09:28</Starttime>
+        <Starttime>10:28</Starttime>
+    </Service>
+  </Group>
+  <Group Info="NT Castleford -> Huddersfield">
+    <Service id="2R02" Desc="Castleford to Huddersfield">
+        <Element>  <Time>23:49</Time>  <Data>Sns;%ID%-2R01</Data>  </Element>
+        <Element>  <Time>23:50</Time>  <Data>Castleford</Data>  </Element>
+        <Element>  <Time>23:55</Time>  <Time>23:55</Time>  <Data>Normanton</Data>  </Element>
+        <Element>  <Time>00:00</Time>  <Time>00:01</Time>  <Data>Wakefield Kirkgate</Data>  </Element>
+        <Element>  <Time>00:09</Time>  <Data>Fer;HuddersfieldOut</Data>  </Element>
+        <Starttime>07:50</Starttime>
+        <Starttime>08:51</Starttime>
+        <Starttime>09:50</Starttime>
+        <Starttime>10:50</Starttime>
+    </Service>
+  </Group>
+</Timetable>
