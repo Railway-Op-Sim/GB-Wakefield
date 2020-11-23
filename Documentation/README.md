@@ -9,10 +9,14 @@ This route is designed to be a continuation of Daniel Gill's Penistone Line rout
 The included timetable starts at 0700 and is based on a weekday in the December 2019 timetable.
 
 It contains the following services:
-LNER services between Leeds and London
-CrossCountry services between Newcastle/Scotland and Birmingham/Penzance
-Many Northern services between Leeds, Sheffield, Knottingley, Huddersfield and Castlefield
-A few Grand Central services between Bradford and London
+- LNER services between Leeds and London
+- CrossCountry services between Newcastle/Scotland and Birmingham/Penzance
+- Many Northern services between Leeds, Sheffield, Knottingley, Huddersfield and Castleford
+- A few Grand Central services between Bradford and London
+
+During the included timetable, no services will use the "Towards Doncaster", "Monk Bretton Redfearns", "Wakefield Europort" or "Towards York" continuations. It is also recommended that you remove the automatic route generated East of Castleford, as this may cause issues for trains turning around there.
+
+The South platform at Castleford is not currently in use.
 
 ## Development
 
